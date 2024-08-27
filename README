@@ -1,0 +1,7 @@
+# PubCaseFinder and GestaltMatcher in BH24
+
+This repo contains the code we use in BH24 for this project.
+
+* Parse j-stage data
+* Send the requests to PubCaseFinder and GestaltMatcher
+* Benchmark the results
