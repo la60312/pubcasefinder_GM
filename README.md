@@ -32,7 +32,7 @@ The script accepts several command-line arguments to configure the input, output
 To run the script with the necessary arguments, use the following command:
 
 ```bash
-python analyze_jstage.py --metadata image_metadata_bh24.tsv --hpo_output_dir hpo_output --gm_output_dir gm_output --images_dir bh24 --gm_url 127.0.0.1 --gm_port 5001
+python analyze_cohort.py --metadata image_metadata_bh24.tsv --hpo_output_dir hpo_output --gm_output_dir gm_output --images_dir bh24 --gm_url 127.0.0.1 --gm_port 5001
 ```
 
 ### Argument Details
@@ -56,7 +56,7 @@ python analyze_jstage.py --metadata image_metadata_bh24.tsv --hpo_output_dir hpo
 ### Example Command Breakdown
 
 ```bash
-python analyze_jstage.py \
+python analyze_cohort.py \
     --metadata image_metadata_bh24.tsv \
     --hpo_output_dir hpo_output \
     --gm_output_dir gm_output \
